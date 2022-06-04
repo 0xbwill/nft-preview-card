@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 310px;
+  height: 580px;
+  border-radius: 0.5rem;
+  padding: 20px;
+}
+
+.card > p {
+  color: hsl(215, 51%, 70%);
+}
+
+.card > h2 {
+  font-size: 22px;
+}
+.card > img {
+  width: 310px;
+  border-radius: 0.5rem;
+}
+/* Data container */
+.data-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-container > * {
+  margin: 0 10px;
+}
+
+.data-container div:nth-child(1) {
+  color: hsl(178, 100%, 50%);
+}
+
+.data-container div:nth-child(2) {
+  color: hsl(215, 51%, 70%);
+}
+
+/* ETH Section */
+.eth {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+}
+
+.eth > img {
+  height: fit-content;
+  margin-right: 10px;
+}
+
+/* DAYS Section */
+.days {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+}
+
+.days > img {
+  height: fit-content;
+  margin-right: 10px;
+}
+
+/* Separator */
+.line {
+  width: 100%;
+  height: 0;
+  border: 1px solid hsl(215, 32%, 27%);
+  display: inline-block;
+}
+
+/* Creation Of */
+.made-by {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.made-by p {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.made-by > img {
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-top:20px
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
